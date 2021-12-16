@@ -1,0 +1,1495 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+@media only screen and (min-width:320px) and (max-width: 375px){
+    #fixed-frame{
+        display: flex;
+    z-index: -10;
+    background-image: url("https://res.cloudinary.com/legends-production/image/upload/v1/owo-prod/one_dine_1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    margin-top: -0.8rem;
+    width: 100%;
+        
+        
+    }
+    h6{
+        display: none;
+        position: relative;
+        width: 24%;
+        height: 1.4rem;
+        font-size: 11.4rem;
+        color: orange;
+        font-family: 'Anton';
+        font-weight: 400;
+        transform: rotate(90deg);
+        top: -6.9rem;
+        left: 45.4rem;
+        max-width: 100%;
+    }
+    h5{
+        display: none;
+        position: relative;
+        font-size: 2.8rem;
+        font-family: 'Anton';
+        color: orange;
+        margin-left: 74.2rem;
+        
+        top: 3.4rem;
+        left: -32.8rem;
+    }
+    #survey-form{
+        position: relative;
+        z-index: 10;
+        border: 0.4rem solid black;
+        background-color: rgba(0,0,0,0.6);
+        margin: 14px -10px -1px 1px;
+        padding: -4rem -8px;
+    }
+    
+    #title{
+        z-index: 10;
+        font-family: Raleway, "Sans Serif";
+        color: white;
+        border: 0.2rem solid orange;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.3em;
+        padding: 1rem;
+        font-weight: 200;
+        position: relative !important;
+    }
+    #description{
+        position: relative !important;
+    z-index: 10;
+    padding: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway';
+    }
+    
+    h2{
+        position: relative !important;
+        z-index: 10;
+        font-weight: 70;
+        padding: 1rem;
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 20px;
+        color: white;
+        
+    }
+    .form-group1{
+        position: relative !important;
+        z-index: 10;
+        padding: 1.0rem;
+        font-size: 1.8rem;
+        margin: 1.2rem;
+        color: white;
+        font-family: 'Raleway';
+    }
+    input {
+        position: relative !important;
+    z-index: 10;
+    border: 0.3rem solid rgb(240, 230, 230);
+    appearance: none;
+    border-radius: 0.8rem;
+    width: 96%;
+    height: 1.3rem;
+    padding: 0.2rem;
+    }
+    #dropdown{
+        position: relative !important;
+        z-index: 10;
+        border: 0.3rem solid salmon;
+        width: 17.0rem;
+        padding: 0.8rem;
+        border-radius: 1.0rem;
+    }
+    .form-group{
+        position: relative !important;
+        z-index: 10;
+        padding: 1.0rem;
+        font-size: 1.2rem;
+        margin: 1.2rem;
+        color: white;
+        font-family: 'Raleway';
+    }
+    .nameBox{
+        border: 0.3rem solid white;
+        z-index: 10;
+    }
+    #textarea{
+        position: relative !important;
+        z-index: 10;
+        width: 97%;
+        border-radius: 0.3rem;
+        text-align: center;
+    text-align: start;
+    
+    }
+    label{
+        position: relative;
+        z-index: 10;
+        border: 0.3rem;
+        display: block;
+        margin: 0.3rem;
+        padding: 0.1rem;
+        font-size: 0.8rem;
+    }
+    #aboutUs{
+        position: relative;
+    z-index: 10;
+    padding: 1rem;
+    width: 87%;
+    border-radius: 1.4rem;
+    }
+    input[type="radio"]{
+        background-color: pink;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    input[type="checkbox"]{
+        background-color: whitesmoke;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    #dishes h1{
+        font-size: 20px;
+    font-weight: 100;
+    padding: 1.0rem;
+    text-align: center;
+    margin: -1rem;
+    }
+    #dishes h2{
+        font-size: 10pxs;
+        text-align: center;
+    }
+    #dishes label{
+        position: relative;
+    border: 0.2rem solid orange;
+    background-color: (255,69,0,0.4);
+    padding: 1.1rem;
+    width: 97%;
+    margin: 0.3rem 0rem 1rem -1rem;
+        
+    }
+    #dishes h3{
+        text-transform: uppercase;
+        font-family: 'Raleway';
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    #dishes span{
+        text-align: center;
+        font-size: 10px;
+        font-weight: 100;
+        font-family: 'Raleway';
+        padding: 0.3rem;
+        margin-left: 0.3rem;
+        text-align: center;
+    }
+    button{
+        width: 64%;
+        cursor: pointer;
+        background: orange;
+        margin: 0rem 2em;
+        padding: -1.8rem;
+        font-size: 1.5rem;
+        font-family: 'Raleway';
+        font-weight: 100;
+    }
+    p{
+        
+        font-size:15px;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width: 425px){
+    #fixed-frame{
+        display: flex;
+    z-index: -10;
+    background-image: url("https://res.cloudinary.com/legends-production/image/upload/v1/owo-prod/one_dine_1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    margin-top: -0.8rem;
+    width: 100%;
+        
+        
+    }
+    h6{
+        display: none;
+        position: relative;
+        width: 24%;
+        height: 1.4rem;
+        font-size: 11.4rem;
+        color: orange;
+        font-family: 'Anton';
+        font-weight: 400;
+        transform: rotate(90deg);
+        top: -6.9rem;
+        left: 45.4rem;
+        max-width: 100%;
+    }
+    h5{
+        display: none;
+        position: relative;
+        font-size: 2.8rem;
+        font-family: 'Anton';
+        color: orange;
+        margin-left: 74.2rem;
+        
+        top: 3.4rem;
+        left: -32.8rem;
+    }
+    #survey-form{
+        position: relative;
+        z-index: 10;
+        border: 0.4rem solid black;
+        background-color: rgba(0,0,0,0.6);
+        margin: 1em -5em 3em 0em;
+        padding: 2rem 1rem;
+    }
+    
+    #title{
+        z-index: 10;
+        font-family: Raleway, "Sans Serif";
+        color: white;
+        border: 0.2rem solid orange;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.3em;
+        padding: 1rem;
+        font-weight: 200;
+        position: relative !important;
+    }
+    #description{
+        position: relative !important;
+    z-index: 10;
+    padding: 1rem;
+    font-size: 1.0rem;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway';
+    }
+    
+    h2{
+        position: relative !important;
+        z-index: 10;
+        font-weight: 70;
+        padding: 2rem;
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 1.6rem;
+        color: white;
+        
+    }
+    .form-group1{
+        position: relative !important;
+        z-index: 10;
+        padding: 1.0rem;
+        font-size: 1.8rem;
+        margin: 1.2rem;
+        color: white;
+        font-family: 'Raleway';
+    }
+    input {
+        position: relative !important;
+    z-index: 10;
+    border: 0.3rem solid rgb(240, 230, 230);
+    appearance: none;
+    border-radius: 0.8rem;
+    width: 96%;
+    height: 2.3rem;
+    padding: 0.2rem;
+    }
+    #dropdown{
+        position: relative !important;
+        z-index: 10;
+        border: 0.3rem solid salmon;
+        width: 18.4rem;
+        padding: 0.8rem;
+        border-radius: 1.0rem;
+    }
+    .form-group{
+        position: relative !important;
+        z-index: 10;
+        padding: 1.0rem;
+        font-size: 1.2rem;
+        margin: 1.2rem;
+        color: white;
+        font-family: 'Raleway';
+    }
+    .nameBox{
+        border: 0.3rem solid white;
+        z-index: 10;
+    }
+    #textarea{
+        position: relative !important;
+    z-index: 10;
+    width: 22rem;
+    border-radius: 1.3rem;
+    text-align: start;
+    
+    }
+    label{
+        position: relative;
+        z-index: 10;
+        border: 0.3rem;
+        display: block;
+        margin: 0.3rem;
+        padding: 0.3rem;
+        font-size: 1.2rem;
+    }
+    #aboutUs{
+        position: relative;
+    z-index: 10;
+    padding: 1rem;
+    width: 87%;
+    border-radius: 1.4rem;
+    }
+    input[type="radio"]{
+        background-color: pink;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    input[type="checkbox"]{
+        background-color: whitesmoke;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    #dishes h1{
+        font-size: 2.0rem;
+    font-weight: 100;
+    padding: 1.0rem;
+    text-align: center;
+    margin: -1rem;
+    }
+    #dishes h2{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #dishes label{
+        position: relative;
+        border: 0.2rem solid orange;
+        background-color: (255,69,0,0.4);
+        padding: 1.3rem;
+        width: 88%;
+        margin: 0.2rem -0.45rem;
+        
+    }
+    #dishes h3{
+        text-transform: uppercase;
+        font-family: 'Raleway';
+        font-size: 1.6rem;
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    #dishes span{
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 100;
+        font-family: 'Raleway';
+        padding: 0.3rem;
+        margin-left: 0.3rem;
+        text-align: center;
+    }
+    button{
+        width: 64%;
+        cursor: pointer;
+        background: orange;
+        margin: 0rem 2em;
+        
+        padding: 0.2rem;
+        font-size: 1.9rem;
+        
+        font-family: 'Raleway';
+        font-weight: 100;
+    }
+}
+
+@media only screen and (min-width:425px) and (max-width: 768px){
+    #fixed-frame{
+        display: flex;
+    z-index: -10;
+    background-image: url("https://res.cloudinary.com/legends-production/image/upload/v1/owo-prod/one_dine_1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    margin-top: -0.8rem;
+    width: 100%;
+        
+        
+    }
+    h6{
+        display: none;
+        position: relative;
+        width: 24%;
+        height: 1.4rem;
+        font-size: 11.4rem;
+        color: orange;
+        font-family: 'Anton';
+        font-weight: 400;
+        transform: rotate(90deg);
+        top: -6.9rem;
+        left: 45.4rem;
+        max-width: 100%;
+    }
+    h5{
+        display: none;
+        position: relative;
+        font-size: 2.8rem;
+        font-family: 'Anton';
+        color: orange;
+        margin-left: 74.2rem;
+        
+        top: 3.4rem;
+        left: -32.8rem;
+    }
+    #survey-form{
+        position: relative;
+        z-index: 10;
+        border: 0.4rem solid black;
+        background-color: rgba(0,0,0,0.6);
+        margin: 1em -5em 3em 1em;
+        padding: 2rem 1rem;
+    }
+    
+    #title{
+        z-index: 10;
+        font-family: Raleway, "Sans Serif";
+        color: white;
+        border: 0.2rem solid orange;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.3em;
+        padding: 1rem;
+        font-weight: 200;
+        position: relative !important;
+    }
+    #description{
+        position: relative !important;
+    z-index: 10;
+    padding: 1rem;
+    font-size: 1.0rem;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway';
+    }
+    
+    h2{
+        position: relative !important;
+        z-index: 10;
+        font-weight: 70;
+        padding: 2rem;
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 1.6rem;
+        color: white;
+        
+    }
+    .form-group1{
+        position: relative !important;
+        z-index: 10;
+        padding: 1.0rem;
+        font-size: 1.8rem;
+        margin: 1.2rem;
+        color: white;
+        font-family: 'Raleway';
+    }
+    input {
+        position: relative !important;
+    z-index: 10;
+    border: 0.3rem solid rgb(240, 230, 230);
+    appearance: none;
+    border-radius: 0.8rem;
+    width: 96%;
+    height: 2.3rem;
+    padding: 0.2rem;
+    }
+    #dropdown{
+        position: relative !important;
+        z-index: 10;
+        border: 0.3rem solid salmon;
+        width: 18.4rem;
+        padding: 0.8rem;
+        border-radius: 1.0rem;
+    }
+    .form-group{
+        position: relative !important;
+        z-index: 10;
+        padding: 1.0rem;
+        font-size: 1.2rem;
+        margin: 1.2rem;
+        color: white;
+        font-family: 'Raleway';
+    }
+    .nameBox{
+        border: 0.3rem solid white;
+        z-index: 10;
+    }
+    #textarea{
+        position: relative !important;
+    z-index: 10;
+    width: 23rem;
+    border-radius: 1.3rem;
+    text-align: start;
+    
+    }
+    label{
+        position: relative;
+        z-index: 10;
+        border: 0.3rem;
+        display: block;
+        margin: 0.3rem;
+        padding: 0.3rem;
+        font-size: 1.2rem;
+    }
+    #aboutUs{
+        position: relative;
+    z-index: 10;
+    padding: 1rem;
+    width: 87%;
+    border-radius: 1.4rem;
+    }
+    input[type="radio"]{
+        background-color: pink;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    input[type="checkbox"]{
+        background-color: whitesmoke;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    #dishes h1{
+        font-size: 2.0rem;
+    font-weight: 100;
+    padding: 1.0rem;
+    text-align: center;
+    margin: -1rem;
+    }
+    #dishes h2{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #dishes label{
+        position: relative;
+        border: 0.2rem solid orange;
+        background-color: (255,69,0,0.4);
+        padding: 1.3rem;
+        width: 88%;
+        margin: 0.2rem -0.45rem;
+        
+    }
+    #dishes h3{
+        text-transform: uppercase;
+        font-family: 'Raleway';
+        font-size: 2.0rem;
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    #dishes span{
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 100;
+        font-family: 'Raleway';
+        padding: 0.3rem;
+        margin-left: 0.3rem;
+        text-align: center;
+    }
+    button{
+        width: 64%;
+        cursor: pointer;
+        background: orange;
+        margin: 0rem 2em;
+        
+        padding: 0.2rem;
+        font-size: 1.9rem;
+        
+        font-family: 'Raleway';
+        font-weight: 100;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 1024px){
+    #fixed-frame{
+        display: flex;
+        z-index: -10;
+        background-image: url("https://res.cloudinary.com/legends-production/image/upload/v1/owo-prod/one_dine_1");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: black;
+        height: 100%;
+        position:fixed;
+        margin-top: -8.8rem;
+        width: 100%;
+        
+        
+    }
+    h6{
+        display: none;
+        position: relative;
+        width: 24%;
+        height: 1.4rem;
+        font-size: 11.4rem;
+        color: orange;
+        font-family: 'Anton';
+        font-weight: 400;
+        transform: rotate(90deg);
+        top: -6.9rem;
+        left: 45.4rem;
+        max-width: 100%;
+    }
+    h5{
+        display: none;
+        position: relative;
+        font-size: 2.8rem;
+        font-family: 'Anton';
+        color: orange;
+        margin-left: 74.2rem;
+        
+        top: 3.4rem;
+        left: -32.8rem;
+    }
+    #survey-form{
+        position: relative;
+        z-index: 10;
+        border: 0.4rem solid black;
+        background-color: rgba(0,0,0,0.6);
+        margin: 9em 2em;
+        padding: 2rem 2rem;
+    }
+    
+    #title{
+        z-index: 10;
+        font-family: Raleway, "Sans Serif";
+        color: white;
+        border: 0.4rem solid orange;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3rem;
+        padding: 1rem;
+        font-weight: 9;
+        position: relative !important;
+    }
+    #description{
+        position: relative !important;
+        z-index: 10;
+        padding: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+        color: white;
+        font-family: 'Raleway';
+    }
+    
+    h2{
+        position: relative !important;
+        z-index: 10;
+        font-weight: 70;
+        padding: 2rem;
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 2.4rem;
+        color: white;
+        
+    
+    }
+    .form-group1{
+        position: relative !important;
+        z-index: 10;
+        padding: 1.0rem;
+        font-size: 1.8rem;
+        margin: 1.2rem;
+        color: white;
+        font-family: 'Raleway';
+    }
+    input {
+        position: relative !important;
+        z-index: 10;
+        border: 0.3rem solid rgb(240, 230, 230);
+        appearance: none;
+        border-radius: 0.8rem;
+        width: 87%;
+        height: 2.3rem;
+        padding: 0.9rem;
+    }
+    #dropdown{
+        position: relative !important;
+        z-index: 10;
+        border: 0.3rem solid salmon;
+        width: 18.4rem;
+        padding: 0.8rem;
+        border-radius: 1.0rem;
+    }
+    .form-group{
+        position: relative !important;
+        z-index: 10;
+        
+        padding: 1.0rem;
+        font-size: 1.8rem;
+        margin: 1.2rem;
+        
+        color: white;
+        font-family: 'Raleway';
+    }
+    .nameBox{
+        border: 0.3rem solid white;
+        z-index: 10;
+    }
+    #textarea{
+        position: relative !important;
+    z-index: 10;
+    width: 33rem;
+    border-radius: 1.3rem;
+    text-align: start;
+    
+    }
+    label{
+        position: relative;
+        z-index: 10;
+        border: 0.3rem;
+        display: block;
+        margin: 0.3rem;
+        padding: 0.5rem;
+        font-size: 1.8rem;
+    }
+    #aboutUs{
+        position: relative;
+        z-index: 10;
+        padding: 1.0rem;
+        width: 31.3rem;
+        border-radius: 1.4rem;
+    }
+    input[type="radio"]{
+        background-color: pink;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    input[type="checkbox"]{
+        background-color: whitesmoke;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    #dishes h1{
+        font-size: 2.8rem;
+        font-weight: 100;
+        padding: 1.0rem;
+        text-align: center;
+        margin: 1.0rem;
+    }
+    #dishes h2{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    #dishes label{
+        position: relative;
+        border: 0.2rem solid orange;
+        background-color: (255,69,0,0.4);
+        padding: 1.3rem;
+        width: 80%;
+        margin: 1.2rem 2.5rem;
+        
+    }
+    #dishes h3{
+        text-transform: uppercase;
+        font-family: 'Raleway';
+        font-size: 2.0rem;
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    #dishes span{
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 100;
+        font-family: 'Raleway';
+        padding: 0.3rem;
+        margin-left: 0.3rem;
+        text-align: center;
+    }
+    button{
+        width: 64%;
+    cursor: pointer;
+    background: orange;
+    margin: 0rem 3em;
+    padding: 1.2rem;
+    font-size: 1.9rem;
+    font-family: 'Raleway';
+    font-weight: 100;
+    }
+}
+
+
+@media only screen and (min-width:1024px) and (max-width: 1440px){
+    #fixed-frame{
+        display: flex;
+        z-index: -10;
+        background-image: url("https://res.cloudinary.com/legends-production/image/upload/v1/owo-prod/one_dine_1");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: black;
+        height: 100%;
+        position:fixed;
+        margin-top: -8.8rem;
+        width: 100%;
+        
+        
+    }
+    h6{
+        display: none;
+        position: relative;
+        width: 24%;
+        height: 1.4rem;
+        font-size: 11.4rem;
+        color: orange;
+        font-family: 'Anton';
+        font-weight: 400;
+        transform: rotate(90deg);
+        top: -6.9rem;
+        left: 45.4rem;
+        max-width: 100%;
+    }
+    h5{
+        display: none;
+        position: relative;
+        font-size: 2.8rem;
+        font-family: 'Anton';
+        color: orange;
+        margin-left: 74.2rem;
+        
+        top: 3.4rem;
+        left: -32.8rem;
+    }
+    #survey-form{
+    position: relative;
+    z-index: 10;
+    border: 0.4rem solid black;
+    background-color: rgba(0,0,0,0.6);
+    margin: 9em 7em;
+    padding: 2rem 2rem;
+    }
+    
+    #title{
+        z-index: 10;
+        font-family: Raleway, "Sans Serif";
+        color: white;
+        border: 0.4rem solid orange;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3rem;
+        padding: 1rem;
+        font-weight: 9;
+        position: relative !important;
+    }
+    #description{
+        position: relative !important;
+        z-index: 10;
+        padding: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+        color: white;
+        font-family: 'Raleway';
+    }
+    
+    h2{
+        position: relative !important;
+        z-index: 10;
+        font-weight: 70;
+        padding: 2rem;
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 2.4rem;
+        color: white;
+        
+    
+    }
+    .form-group1{
+        position: relative !important;
+        z-index: 10;
+        padding: 1.0rem;
+        font-size: 1.8rem;
+        margin: 1.2rem;
+        color: white;
+        font-family: 'Raleway';
+    }
+    input {
+        position: relative !important;
+        z-index: 10;
+        border: 0.3rem solid rgb(240, 230, 230);
+        appearance: none;
+        border-radius: 0.8rem;
+        width: 87%;
+        height: 2.3rem;
+        padding: 0.9rem;
+    }
+    #dropdown{
+        position: relative !important;
+        z-index: 10;
+        border: 0.3rem solid salmon;
+        width: 18.4rem;
+        padding: 0.8rem;
+        border-radius: 1.0rem;
+    }
+    .form-group{
+        position: relative !important;
+        z-index: 10;
+        
+        padding: 1.0rem;
+        font-size: 1.8rem;
+        margin: 1.2rem;
+        
+        color: white;
+        font-family: 'Raleway';
+    }
+    .nameBox{
+        border: 0.3rem solid white;
+        z-index: 10;
+    }
+    #textarea{
+        position: relative !important;
+        z-index: 10;
+        width: 42rem;
+        border-radius: 1.3rem;
+        text-align: start;
+    
+    }
+    label{
+        position: relative;
+        z-index: 10;
+        border: 0.3rem;
+        display: block;
+        margin: 0.3rem;
+        padding: 0.5rem;
+        font-size: 1.8rem;
+    }
+    #aboutUs{
+        position: relative;
+        z-index: 10;
+        padding: 1.0rem;
+        width: 31.3rem;
+        border-radius: 1.4rem;
+    }
+    input[type="radio"]{
+        background-color: pink;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    input[type="checkbox"]{
+        background-color: whitesmoke;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    #dishes h1{
+        font-size: 2.8rem;
+        font-weight: 100;
+        padding: 1.0rem;
+        text-align: center;
+        margin: 1.0rem;
+    }
+    #dishes h2{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    #dishes label{
+        position: relative;
+        border: 0.2rem solid orange;
+        background-color: (255,69,0,0.4);
+        padding: 1.3rem;
+        width: 80%;
+        margin: 1.2rem 2.5rem;
+        
+    }
+    #dishes h3{
+        text-transform: uppercase;
+        font-family: 'Raleway';
+        font-size: 2.0rem;
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    #dishes span{
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 100;
+        font-family: 'Raleway';
+        padding: 0.3rem;
+        margin-left: 0.3rem;
+        text-align: center;
+    }
+    button{
+        width: 50%;
+        cursor: pointer;
+        background: orange;
+        margin: 0rem 5em;
+        padding: 1.2rem;
+        font-size: 1.9rem;
+        font-family: 'Raleway';
+        font-weight: 100;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) and (max-width: 2560px){
+    #fixed-frame{
+        display: flex;
+        z-index: -10;
+        background-image: url("https://res.cloudinary.com/legends-production/image/upload/v1/owo-prod/one_dine_1");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: black;
+        height: 100%;
+        position:fixed;
+        margin-top: -8.8rem;
+        width: 100%;
+        
+        
+    }
+    h6{
+
+        position: relative;
+    width: 24%;
+    height: 1.4rem;
+    font-size: 11.4rem;
+    color: orange;
+    font-family: 'Anton';
+    font-weight: 400;
+    display:none;
+    transform: rotate(90deg);
+    top: -6.9rem;
+    left: 45.4rem;
+    max-width: 100%;
+    }
+    h5{
+        position: relative;
+        font-size: 2.8rem;
+        font-family: 'Anton';
+        color: orange;
+        margin-left: 74.2rem;
+        display: none;
+        top: 3.4rem;
+        left: -32.8rem;
+    }
+    #survey-form{
+        position: relative;
+        z-index: 10;
+        border: 0.4rem solid black;
+        background-color: rgba(0,0,0,0.6);
+        margin: 9em 17em;
+        padding: 3rem 2rem;
+    }
+    
+    #title{
+        z-index: 10;
+        font-family: Raleway, "Sans Serif";
+        color: white;
+        border: 0.4rem solid orange;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3rem;
+        padding: 1rem;
+        font-weight: 9;
+        position: relative !important;
+    }
+    #description{
+        position: relative !important;
+        z-index: 10;
+        padding: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+        color: white;
+        font-family: 'Raleway';
+    }
+    
+    h2{
+        position: relative !important;
+        z-index: 10;
+        font-weight: 70;
+        padding: 2rem;
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 2.4rem;
+        color: white;
+        
+    
+    }
+    .form-group1{
+        position: relative !important;
+        z-index: 10;
+        padding: 1.0rem;
+        font-size: 1.8rem;
+        margin: 1.2rem;
+        color: white;
+        font-family: 'Raleway';
+    }
+    input {
+        position: relative !important;
+        z-index: 10;
+        border: 0.3rem solid rgb(240, 230, 230);
+        appearance: none;
+        border-radius: 0.8rem;
+        width: 64%;
+        height: 2.3rem;
+        padding: 0.9rem;
+    }
+    #dropdown{
+        position: relative !important;
+        z-index: 10;
+        border: 0.3rem solid salmon;
+        width: 18.4rem;
+        padding: 0.8rem;
+        border-radius: 1.0rem;
+    }
+    .form-group{
+        position: relative !important;
+        z-index: 10;
+        
+        padding: 1.0rem;
+        font-size: 1.8rem;
+        margin: 1.2rem;
+        
+        color: white;
+        font-family: 'Raleway';
+    }
+    .nameBox{
+        border: 0.3rem solid white;
+        z-index: 10;
+    }
+    #textarea{
+        position: relative !important;
+        z-index: 10;
+        width: 42rem;
+        border-radius: 1.3rem;
+        text-align: start;
+    
+    }
+    label{
+        position: relative;
+        z-index: 10;
+        border: 0.3rem;
+        display: block;
+        margin: 0.3rem;
+        padding: 0.5rem;
+        font-size: 1.8rem;
+    }
+    #aboutUs{
+        position: relative;
+        z-index: 10;
+        padding: 1.0rem;
+        width: 31.3rem;
+        border-radius: 1.4rem;
+    }
+    input[type="radio"]{
+        background-color: pink;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    input[type="checkbox"]{
+        background-color: whitesmoke;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    #dishes h1{
+        font-size: 2.8rem;
+        font-weight: 100;
+        padding: 1.0rem;
+        text-align: center;
+        margin: 1.0rem;
+    }
+    #dishes h2{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    #dishes label{
+        
+        position: relative;
+        border: 0.2rem solid orange;
+        background-color: (255,69,0,0.4);
+        padding: 1.3rem;
+        width: 71%;
+        margin: 1.2rem 5.5rem;
+        
+    }
+    #dishes h3{
+        text-transform: uppercase;
+        font-family: 'Raleway';
+        font-size: 2.0rem;
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    #dishes span{
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 100;
+        font-family: 'Raleway';
+        padding: 0.3rem;
+        margin-left: 0.3rem;
+        text-align: center;
+    }
+    button{
+        width: 50%;
+        cursor: pointer;
+        background: orange;
+        margin: 0rem 6em;
+        padding: 1.2rem;
+        font-size: 1.9rem;
+        font-family: 'Raleway';
+        font-weight: 100;
+    }
+}
+
+
+
+@media only screen and (min-width: 2560px) and (max-width: 3000px){
+    #fixed-frame{
+        display: flex;
+        z-index: -10;
+        background-image: url("https://res.cloudinary.com/legends-production/image/upload/v1/owo-prod/one_dine_1");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: black;
+        height: 100%;
+        position:fixed;
+        margin-top: -8.8rem;
+        width: 100%;
+        
+        
+    }
+    h6{
+        position: relative;
+        width: 24%;
+        height: 1.4rem;
+        font-size: 15.4rem;
+        color: orange;
+        font-family: 'Anton';
+        font-weight: 400;
+        transform: rotate(90deg);
+        top: -3.9rem;
+        left: 79.4rem;
+        max-width: 100%;
+    }
+    h5{
+        position: relative;
+        font-size: 2.8rem;
+        font-family: 'Anton';
+        color: orange;
+        margin-left: 74.2rem;
+        display: block;
+        top: 6.4rem;
+        left: 3.2rem;
+    }
+    #survey-form{
+        
+        position: relative;
+        z-index: 10;
+        border: 0.4rem solid black;
+        background-color: rgba(0,0,0,0.6);
+        
+        margin: 9rem 34rem;
+        padding: 3rem 4rem;
+    }
+    
+    #title{
+        z-index: 10;
+        font-family: Raleway, "Sans Serif";
+        color: white;
+        border: 0.4rem solid orange;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5rem;
+        padding: 1rem;
+        font-weight: 9;
+        position: relative !important;
+    }
+    #description{
+        position: relative !important;
+        z-index: 10;
+        padding: 1rem;
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        font-family: 'Raleway';
+    }
+    
+    h2{
+        position: relative !important;
+        z-index: 10;
+        font-weight: 70;
+        padding: 2rem;
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 3rem;
+        color: white;
+        
+    
+    }
+    .form-group1{
+        position: relative !important;
+        z-index: 10;
+        padding: 1.0rem;
+        font-size: 1.8rem;
+        margin: 1.2rem;
+        color: white;
+        font-family: 'Raleway';
+    }
+    input {
+        position: relative !important;
+        z-index: 10;
+        border: 0.3rem solid rgb(240, 230, 230);
+        appearance: none;
+        border-radius: 0.8rem;
+        width: 50%;
+        height: 2.3rem;
+        padding: 0.9rem;
+    }
+    #dropdown{
+        position: relative !important;
+        z-index: 10;
+        border: 0.3rem solid salmon;
+        width: 18.4rem;
+        padding: 0.8rem;
+        border-radius: 1.0rem;
+    }
+    .form-group{
+        position: relative !important;
+        z-index: 10;
+        
+        padding: 1.0rem;
+        font-size: 1.8rem;
+        margin: 1.2rem;
+        
+        color: white;
+        font-family: 'Raleway';
+    }
+    .nameBox{
+        border: 0.3rem solid white;
+        z-index: 10;
+    }
+    #textarea{
+        position: relative !important;
+        z-index: 10;
+        width: 42rem;
+        border-radius: 1.3rem;
+        text-align: start;
+    
+    }
+    label{
+        position: relative;
+        z-index: 10;
+        border: 0.3rem;
+        display: block;
+        margin: 0.3rem;
+        padding: 0.5rem;
+        font-size: 1.8rem;
+    }
+    #aboutUs{
+        position: relative;
+        z-index: 10;
+        padding: 1.0rem;
+        width: 31.3rem;
+        border-radius: 1.4rem;
+    }
+    input[type="radio"]{
+        background-color: pink;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    input[type="checkbox"]{
+        background-color: whitesmoke;
+        cursor: default;
+        appearance: auto;
+        width: 10%;
+    }
+    #dishes h1{
+        font-size: 2.8rem;
+        font-weight: 100;
+        padding: 1.0rem;
+        text-align: center;
+        margin: 1.0rem;
+    }
+    #dishes h2{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    #dishes label{
+        position: relative;
+        border: 0.2rem solid orange;
+        background-color: (255,69,0,0.4);
+        padding: 1.3rem;
+        width: 62%;
+        margin: 1.2rem 15.5rem;
+        
+    }
+    #dishes h3{
+        text-transform: uppercase;
+        font-family: 'Raleway';
+        font-size: 2.0rem;
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    #dishes span{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 100;
+        font-family: 'Raleway';
+        padding: 0.3rem;
+        margin-left: 12.3rem;
+        text-align: center ;
+    }
+    button{
+        width: 50%;
+        cursor: pointer;
+        background: orange;
+        margin: 1.0rem 22.7rem;
+        padding: 1.0rem;
+        font-size: 1.9rem;
+        font-family: 'Raleway';
+        font-weight: 100;
+    }
+    
+}
+
+
+
+
