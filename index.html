@@ -1,0 +1,112 @@
+
+<body>
+    <section id="fixed-frame"></section>
+    
+    <form id="survey-form">
+        <h1 id="title">Group Dining Reservation</h1>
+        <p id="description">
+            Elevate your dinner plans. Experience premier dining high above Manhattans's Spectacular skyline while enjoying first-class service and gourmet cuisine. 
+        </p>
+        <h2>Your Contact Information</h2>
+        <div class="form-group1" >
+            <label for="name" id="name-label">Full Name: </label>
+            <input type="text" id="name" placeholder="Enter Full Name" required>
+        </div>
+        <div class="form-group1">
+            <label for="Name" id="email-label"> Email Adddress: </label>
+            <input type="email" id="email" placeholder="Enter Email Address" required>
+        </div>
+        <div class="form-group1">
+            <label for="PhoneNumber" id="number-label">Phone Number: </label>
+            <input type="number" id="number" placeholder="Enter your phone number" min="10" max="10" required>
+        </div>
+        <div class="form-group1">
+            <label for="preference">How would you prefer to be contacted ? </label>
+            <select name="preference" id="dropdown" required>
+                <option value="Phone" selected>Phone</option>
+                <option value="Email">Email</option>
+            </select>
+        </div>
+        <div class="form-group1">
+            <label for="Company">Company</label>
+            <input type="text" placeholder="Enter Company Name">
+        </div>
+        <h2> Your Event Details </h2>
+        <h6>ONE</h6>
+        <h5>DINE </h5>
+        <div class="form-group">
+            <label for="occasion">Is this reservation for special occasion ? </label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label for="eventdate">Event Date </label>
+            <input type="date">
+        </div>
+        <div class="form-group">
+            <label for="starttime">Start Time</label>
+            <input type="time">
+        </div>
+        <div class="form-group">
+            <label for="Endtime">End Time</label>
+            <input type="time">
+        </div>
+        <div class="form-group">
+            <label for="NumPeople">Number of people (Minimum of 2) </label>
+            <input type="number" min="2"  max="6" required>
+        </div>
+        <div class="form-group">
+            <p> We provide valet parking for $40. Do you need parking ?  </p>
+            <label for="parkingYes">
+                <input type="radio" name="parking"  value="Yes" id="Yes"> Yes
+            </label>
+            
+            <label for="parkingNo">
+                <input name="parking" type="radio" value="No" id="No" checked="checked">No
+            </label>
+        </div>
+        <div class="form-group" id="dishes">
+            <h1>Our Starter Menu to get your started. </h1>
+            <h2>Choose your starters</h2>
+            <label for="ChickenWing" id="starterCW">
+                <h3>Chicken Wing - $18</h3>
+                <span>Blue Cheese Dressing - Celery, Carrots</span><br>
+                <span>Choice of sauce: Classic Buffalo-HoneySriracha or BBQ</span>
+                <input type="checkbox" name="ChickenWing" value="ChickenWing">
+            </label>
+            <label for="FriedCalamari" id="starterFC">
+                <h3>Buttermilk Fried Calmari - $18</h3>
+                <span> Banana Peppers. Chrred Lemon.
+                Tarter Sauce & Marinana Sauce</span>
+                <input type="checkbox" name="FriedCalamari" value="FriedCalamari">
+            </label>
+            <label for="ShishitoPeppers" id="starterSP">
+                <h3>Blistered Shishito Peppers - $14</h3>
+                <span>Hot Honey. Togarashi & Spiced Pumpkin Seeds</span>
+                <input type="checkbox" name="ShishitoP" value="ShishitoP">
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="specialRequests"> Do you have any special requests for your reservation ? </label>
+            <textarea name="specialReq" id="textarea" cols="70" rows="10"> amet eveniet sed alias explicabo tenetur in non repellendus quis omnis deserunt.</textarea>
+        </div>
+        <div class="form-group">
+            <label for="aboutUs">How did you hear about us ? </label>
+            <select name="hearaboutus" id="aboutUs" >
+                <option value="Instagram">Instagram</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Search Engine">Search Engine</option>
+                <option value="Email">Email</option>
+                <option value="Other">Other</option>
+                <option value="Group Sales">Group Sales</option>
+                <option value="Trades Show">Trades Show</option>
+                <option value="Visit to the observatory">Visit to the observatory</option>
+                <option value="Client Referrel">Client Referrel</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <button type="submit" id="submit"> Submit
+        </div>
+    </form>
+
+</body>
+</html>     
